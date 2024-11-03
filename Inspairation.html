@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Galleries</title>
+    <link rel="stylesheet" href="photos.css">
+    <style>
+        /* photos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.gallery-item {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 30%;
+    min-width: 250px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.gallery-item p {
+    font-size: 1em;
+}
+
+footer {
+    background: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Plans.html">Plans</a></li>
+                <li><a href="NutritionGuaide.html">Nutrition Guide</a></li>
+                <li><a href="Inspairation.html">Inspairation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Photography Collections</h1>
+        <p>Browse our inspiring image collections that highlight transformation journeys, exercise techniques, and additional content.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Health and Fitness Transformations</h2>
+        <div class="gallery-grid">
+            <article class="gallery-item">
+                <img src="photos/21.jpg" alt="Before and after transformation" class="gallery-img">
+                <h3>The Story of Shrada's Transformation</h3>
+                <p>Having transformed from 250 lbs to a healthier lifestyle, John shares his inspiring story and useful tips.</p>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/22.jpg" alt="Before and after transformation" class="gallery-img">
+                <h3>Watson's Journey to a Healthier Lifestyle</h3>
+                <p>Emily's unwavering dedication to fitness brought about an inspiring transformation. Here’s how she did it</p>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/23.jpg" alt="Before and after transformation" class="gallery-img">
+                <h3>Mark's Path to a Healthier Weight</h3>
+                <p>Mark's incredible journey includes losing 70 lbs and transforming his life. Discover his approach!</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="workout-techniques">
+        <h2 style="text-align: center;">Exercise Approaches</h2>
+        <div class="gallery-grid">
+            <article class="gallery-item">
+                <img src="photos/24.jpg" alt="Squats technique" class="gallery-img">
+                <h3>How to Perform a Squat Correctly</h3>
+                <p>Understand the basics of the squat and discover how to refine your form.</p>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/26.jpg" alt="Push-ups technique" class="gallery-img">
+                <h3>Push-Up Skills Development</h3>
+                <p>Guidelines and tricks to increase the efficiency of your push-up routine.</p>
+            </article>
+            <article class="gallery-item">
+                <img src="photos/27.jpg" alt="Deadlifts technique" class="gallery-img">
+                <h3>Deadlift Fundamentals</h3>
+                <p>A guide to deadlifts, highlighting common mistakes to prevent.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Healthy Haven | <a href="contact.html">Contact Us</a> |  stay Healthy</p>
+    </footer>
+</body>
+</html>
